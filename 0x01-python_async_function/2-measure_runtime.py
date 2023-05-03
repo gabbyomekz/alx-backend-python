@@ -19,5 +19,5 @@ def measure_time(n: int, max_delay: int) -> float:
     e_time = perf_counter() - s_time
 
     # Return the average time per n
-    return e_time / 
+    return e_time / n
   
